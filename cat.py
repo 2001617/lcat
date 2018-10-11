@@ -9,4 +9,4 @@ print("and again")
 if 4 == 4:
     print("true")
 
-print(sys.version)
+print(sys.prefix)
