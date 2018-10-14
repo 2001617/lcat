@@ -5,7 +5,7 @@ import os
 import shutil
 import bs4
 
-#
+##
 
 root_path = "/data/lib"
 file_list = root_path + "/ziplist.lst" 
