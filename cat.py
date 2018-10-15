@@ -8,7 +8,7 @@ print("and again")
 if 4 == 4:
     print("true")
 
-print("1-st commit")
-print("1-st commit")
-print("2-st commit")
-print("2-st commit")
+# print("1-st commit")
+# print("1-st commit")
+# print("2-st commit")
+# print("2-st commit")
