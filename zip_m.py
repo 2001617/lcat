@@ -39,10 +39,11 @@ for file in all_file_list:
                             auf = f_n.text
                     author = author + aul + " " + auf + " "
                     bt = t_i.find('book-title')
-                    genre = t_i.find('genre')
-                    if genre:
-                        gr = genre.text
-                    else:
-                        gr = ""
-                    ouf.write("{0}::{1}::{2}::{3}::{4}\n".format(filshrt, fb2, author.strip(), bt.text, gr))
+                    if bt:
+                        genre = t_i.find('genre')
+                        if genre:
+                            gr = genre.text
+                        else:
+                            gr = ""
+                        ouf.write("{0}::{1}::{2}::{3}::{4}\n".format(filshrt, fb2, author.strip(), bt.text, gr))
         shutil.rmtree(tmpdir)
